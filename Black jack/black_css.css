@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    font-family: tahoma, arial, verdana, sans-serif;
+}
+
+img{
+    width: 100px;
+    margin: 10px;
+}
+/*#card{
+    width: 100px;
+}
+#card2{
+    width: 100px;
+}
+#card3{
+    width: 100px;
+}
+#card4{
+    width: 100px;
+}
+#card5{
+    width: 100px;
+}*/
+#bot{
+    /*display: inline-block;*/
+    /*position: relative;*/
+    margin-top: 20px;
+    width: 1000px;
+    height: 220px;
+    border-bottom: 2px solid #e5e6e6;
+}
+#bot_points{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 170px;
+}
+
+#bot_cards{
+    display: inline-block;
+    position: absolute;
+    width: 800px;
+    /*float: left;*/
+    left: 250px;
+}
+#bWin{
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+    color: red;
+    font-size: 40px;
+    display: none;
+
+
+}
+#user{
+    /*display: inline-block;*/
+    /*position: relative;*/
+    width: 1000px;
+    height: 220px;
+    margin-top: 20px;
+
+    border-bottom: 2px solid #e5e6e6;
+}
+#user_points{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 170px;
+
+}
+#points{
+    display: block;
+    float: left;
+}
+#user_cards{
+    display: inline-block;
+    position: absolute;
+    width: 800px;
+    /*float: left;*/
+    left: 250px;
+}
+#vvod{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#yWin{
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+    color: green;
+    font-size: 40px;
+    display: none;
+
+
+}
+#ocno{
+
+    z-index: 1;
+}
+#second{
+    color: #54b0ff;
+    font-size: 80px;
+    position: absolute;
+    top: 180px;
+    left:300px;
+    z-index: 10;
+    display: none;
+}
